@@ -1,18 +1,32 @@
-public class PeakArray {
+public class SearchInRotatedArray {
     public static void main(String[] args) {
-        int [] arr = {1,3,5,7,6,4,2};
-        int target = 6;
-        System.out.println(getPeak(arr));
+        int [] arr = {4,5,6,7,0,1,2};
+        int target = 1;
+        int ans = getAns(arr, target);
+        System.out.println(ans);
+    }
+
+    public static int getAns  (int [] arr, int target) {
         int end = getPeak(arr);
         int startIndex = BinarySearch(arr, target, 0, end);
         if(startIndex != -1){
-            System.out.println("It is present in first half");
+//            System.out.println("It is present in first half");
+            return startIndex;
         } else {
+            if(arr.length == 1){
+                if(arr[0] == target) {
+                    return 0;
+                }else {
+                    return -1;
+                }
+            }
             int lastIndex = BinarySearch(arr, target, end + 1, arr.length - 1);
             if(lastIndex != -1){
-                System.out.println("It is present in second Half");
+//                System.out.println("It is present in second Half");
+                return lastIndex;
             } else {
-                System.out.println("It is not present anywhere in the array");
+//                System.out.println("It is not present anywhere in the array");
+                return -1;
             }
         }
     }
@@ -56,5 +70,5 @@ public class PeakArray {
         }
         return start;
     }
-     
+
 }
