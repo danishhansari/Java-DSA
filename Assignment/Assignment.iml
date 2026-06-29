@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/05 - Linear Search" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/06 - Binary Search" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/07 - Binary Search Questions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08 - Linked List" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
