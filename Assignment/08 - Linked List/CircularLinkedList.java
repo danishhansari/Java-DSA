@@ -49,8 +49,6 @@ public class CircularLinkedList {
         if(node == null) {
             return;
         }
-
-        i
     }
 
     private class Node{
