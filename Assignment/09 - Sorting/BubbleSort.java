@@ -10,9 +10,10 @@ public class BubbleSort {
 
     private static int[] bubbleSort(int[] arr) {
         boolean swapped;
-        for (int i = 0; i < arr.length; i ++) {
+        int n = arr.length;
+        for (int i = 0; i < n; i ++) {
             swapped = false;
-            for ( int j = 1; j < arr.length - i ; j ++) {
+            for ( int j = 1; j < n - i ; j ++) {
                 if ( arr[j] < arr[j - 1]) {
                     swap(arr, j, j - 1);
                     swapped = true;
