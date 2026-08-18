@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/08 - Linked List" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/09 - Sorting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/10 - Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11 - LeetCode Questions" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
